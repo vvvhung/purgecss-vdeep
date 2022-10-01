@@ -1,0 +1,40 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "gen": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-delay-hydration": "^0.4.5",
+    "nuxt-lazy-load": "^1.2.9",
+    "nuxt-speedkit": "^2.0.20",
+    "vee-validate": "3"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.0",
+    "autoprefixer": "^10.4.4",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "nuxt-purgecss": "^1.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "path": "^0.12.7",
+    "postcss": "^8.4.12",
+    "prerender-spa-plugin": "^3.4.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.45.0",
+    "sass-loader": "10",
+    "tailwindcss": "^3.0.23"
+  }
+}
